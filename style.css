@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  width: 40px;
+  order: 3;
+  margin-left: auto;
+}
+
+nav {
+  order: 1;
+}
+
+.navlinks {
+  list-style: none;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.navlinks li:nth-child(1) {
+  padding: 0 20px 0 0;
+}
+
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+  color: grey;
+}
+
+.cta {
+  order: 2;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: black;
+  color: white;
+  border:none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+.title {
+  font-size: 50px;
+  margin-top: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.next {
+  font-size: 15px;
+  margin-top: 8px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid darkgray;
+}
+
+.project img, #aboutme img {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.project h2, #aboutme h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-family: arial;
+  margin-left: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+#project-container, #aboutme {
+  margin: 0 auto; /* centers projects div*/
+  width: 90%; /* adds space on either side */
+  max-width: 600px; /* keeps div getting to wide */
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-right:50px;
+}
